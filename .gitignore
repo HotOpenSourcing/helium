@@ -40,7 +40,6 @@ docs/_build/
 docs/modules/
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -56,6 +55,7 @@ poetry.lock
 
 # IDE / Editor
 .idea
-.vscode
 
 geckodriver.log
+config.bat
+node_modules

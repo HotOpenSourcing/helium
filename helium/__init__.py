@@ -9,6 +9,11 @@ Helium functions in your Python scripts you can import them from the
 
 	from helium import *
 """
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 from collections import namedtuple, OrderedDict
 from copy import copy
 from helium._impl import APIImpl
